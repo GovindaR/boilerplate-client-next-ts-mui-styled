@@ -1,0 +1,47 @@
+{
+  "name": "fe-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mui/icons-material": "^5.0.5",
+    "@mui/material": "^5.0.6",
+    "@mui/styled-engine-sc": "^5.1.0",
+    "@mui/system": "^5.0.6",
+    "@reduxjs/toolkit": "^1.6.2",
+    "@svgr/webpack": "^6.1.2",
+    "axios": "^0.24.0",
+    "browser-image-compression": "^1.0.16",
+    "js-cookie": "^3.0.1",
+    "next": "^12.0.2",
+    "next-transpile-modules": "^9.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-query": "^3.33.4",
+    "react-redux": "^7.2.6",
+    "react-string-replace": "^0.4.4",
+    "redux-persist": "^6.0.0",
+    "styled-components": "^5.3.3",
+    "stylis": "^4.0.10",
+    "stylis-plugin-rtl": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.0",
+    "@types/react": "^17.0.33",
+    "@types/styled-components": "^5.1.15",
+    "eslint": "^8.1.0",
+    "eslint-config-next": "^12.0.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4"
+  }
+}
