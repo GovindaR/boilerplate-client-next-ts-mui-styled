@@ -3,9 +3,8 @@ import type { NextPage } from 'next';
 import { dehydrate, QueryClient } from 'react-query';
 
 import { fetchPokemon } from '../src/utils/api/rest/raw/module1';
-import { Homepage } from '../src/modules/_core/components/Homepage';
 import LayoutArea from '../src/modules/_core/components/layout/LayoutArea';
-import BannerArea from '../src/modules/_core/components/home/Banner/BannerArea';
+import BannerArea from '../src/home/Banner/BannerArea';
 
 const Home: NextPage = () => {
   return (
