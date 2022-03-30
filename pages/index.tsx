@@ -2,8 +2,8 @@ import Head from "next/head";
 import type { NextPage } from "next";
 import { dehydrate, QueryClient } from "react-query";
 
-import LayoutArea from "@modules/_core/components/layout/LayoutArea";
-import { fetchPokemon } from "@utils/api/rest/raw/module1";
+import { fetchPokemon } from "../src/utils/api/rest/raw/module1";
+import { LayoutArea } from "../src/modules/_core/layout/LayoutArea";
 
 const Home: NextPage = () => {
   return (
