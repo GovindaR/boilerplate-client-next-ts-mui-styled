@@ -1,4 +1,4 @@
-export type LangType = "en" | "jp";
+export type LangType = "en" | "np";
 
 export interface LabelsType {
   [locale: string]: {

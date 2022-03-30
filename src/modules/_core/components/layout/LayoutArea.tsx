@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import FooterArea from './FooterArea';
-import HeaderArea from './HeaderArea';
+import styled from "styled-components";
+import FooterArea from "./FooterArea";
+import HeaderArea from "./HeaderArea";
 
 const LayoutWrapper = styled.div`
   height: 100vh;
@@ -8,9 +8,9 @@ const LayoutWrapper = styled.div`
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
-    'header'
-    'main'
-    'footer';
+    "header"
+    "main"
+    "footer";
 `;
 
 function LayoutArea({ children }: any) {

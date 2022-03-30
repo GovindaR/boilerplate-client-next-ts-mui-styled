@@ -6,6 +6,11 @@ const withTM = require("next-transpile-modules")([
 module.exports = withTM({
   // Your existing module.exports
   reactStrictMode: true,
+  i18n: {
+    locales: ["en", "np"],
+    defaultLocale: "en",
+    localeDetection: false,
+  },
   webpack: (config) => {
     config.resolve.alias = {
       ...config.resolve.alias,
@@ -16,5 +21,9 @@ module.exports = withTM({
       use: ["@svgr/webpack"],
     });
     return config;
+  },
+  swcMinify: true,
+  experimental: {
+    styledComponents: true,
   },
 });

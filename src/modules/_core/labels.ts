@@ -11,7 +11,7 @@ export const translations = {
     theme: `Theme`,
     sentryThrowErr: `Sentry Throw Error`,
   },
-  jp: {
+  np: {
     boilerplate: "boilerplate-اي مشرف",
     goToLogin: "اذهب إلى تسجيل الدخول",
     toggle: (s: string) => `تبديل ${s}`,
