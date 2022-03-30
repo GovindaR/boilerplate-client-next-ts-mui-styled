@@ -16,19 +16,16 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
+      "@icons/*": ["./icons"],
       "@utils/*": ["./src/utils/*"],
       "@state/*": ["./src/state/*"],
       "@config/*": ["./src/config/*"],
       "@styles/*": ["./src/styles/*"],
-      "@modules/*": ["./src/modules/*"]
+      "@modules/*": ["./src/modules/*"],
+      "@mui/styled-engine": ["./node_modules/@mui/styled-engine-sc"]
     },
     "typeRoots": ["@types"]
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "src/modules/_core/state/coreSlice"
-  ],
+  "include": ["**/*.ts", "**/*.tsx", "next-env.d.ts"],
   "exclude": ["node_modules"]
 }

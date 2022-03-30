@@ -1,7 +1,7 @@
-import { LayoutWrapper } from '../styles/LayoutWrapper';
-import { FooterArea } from './FooterArea';
-import { HeaderArea } from './HeaderArea';
-import { SideNavArea } from './SideNavArea';
+import { LayoutWrapper } from "../styles/LayoutWrapper";
+import { FooterArea } from "./FooterArea";
+import { HeaderArea } from "./HeaderArea";
+import { SideNavArea } from "./SideNavArea";
 
 export const LayoutArea = ({ children, bg }: any) => {
   return (

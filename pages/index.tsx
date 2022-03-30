@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 import { dehydrate, QueryClient } from "react-query";
 
 import { fetchPokemon } from "../src/utils/api/rest/raw/module1";
-import { LayoutArea } from "../src/modules/_core/layout/LayoutArea";
+import LayoutArea from "../src/modules/_core/components/layout/LayoutArea";
 
 const Home: NextPage = () => {
   return (
