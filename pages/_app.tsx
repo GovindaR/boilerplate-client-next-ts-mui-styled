@@ -1,18 +1,17 @@
-import Head from 'next/head';
-import { AppProps } from 'next/app';
-import { ReactElement, useState } from 'react';
-import { Provider, useSelector } from 'react-redux';
-import { ReactQueryDevtools } from 'react-query/devtools';
-import { PersistGate } from 'redux-persist/integration/react';
-import { Hydrate, QueryClient, QueryClientProvider } from 'react-query';
-import CssBaseline from '@mui/material/CssBaseline';
+import Head from "next/head";
+import { AppProps } from "next/app";
+import { ReactElement, useState } from "react";
+import { Provider, useSelector } from "react-redux";
+import { ReactQueryDevtools } from "react-query/devtools";
+import { PersistGate } from "redux-persist/integration/react";
+import { Hydrate, QueryClient, QueryClientProvider } from "react-query";
+import CssBaseline from "@mui/material/CssBaseline";
 
-import { ThemeProvider } from '@mui/material/styles';
-import { ThemeProvider as StyledCompThemeProvider } from 'styled-components';
+import { ThemeProvider } from "@mui/material/styles";
+import { ThemeProvider as StyledCompThemeProvider } from "styled-components";
 
-import theme from '../src/styles/theme';
-import { persistor, RootState, store } from '../src/state/store';
-import GlobalStyle from '../src/styles/globalStyles';
+import theme from "../src/styles/theme";
+import { persistor, RootState, store } from "../src/state/store";
 
 const WrapperComp = (props: WrapperCompTypes): ReactElement => {
   const { Component, pageProps } = props;
@@ -31,8 +30,7 @@ const WrapperComp = (props: WrapperCompTypes): ReactElement => {
       <ThemeProvider theme={cusTheme}>
         <StyledCompThemeProvider theme={cusTheme}>
           <CssBaseline />
-          <div dir={rtl ? 'rtl' : 'ltr'}>
-            <GlobalStyle />
+          <div dir={rtl ? "rtl" : "ltr"}>
             <Component {...pageProps} />
           </div>
         </StyledCompThemeProvider>

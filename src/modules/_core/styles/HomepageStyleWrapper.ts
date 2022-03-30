@@ -1,6 +1,5 @@
-// import { styled } from "@mui/system";
 import styled from "styled-components";
-
+// import { styled } from "@mui/material/styles";
 export const HomepageStyleWrapper = styled("div")(({ theme }) => ({
   ".container": {
     minHeight: "100vh",

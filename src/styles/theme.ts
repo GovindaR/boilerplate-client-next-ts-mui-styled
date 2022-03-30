@@ -1,5 +1,4 @@
 import { createTheme } from "@mui/material/styles";
-import { Theme } from "@mui/system";
 import { darkPalette, lightPalette } from "./palette";
 // import { red } from '@mui/material/colors';
 export type customInitialProps = {
