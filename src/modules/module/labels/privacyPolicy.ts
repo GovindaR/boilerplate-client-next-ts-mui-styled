@@ -21,7 +21,7 @@ export const translations = {
   This policy is effective as of 21 September 2020.
     `,
   },
-  jp: {
+  np: {
     privacyPolicyContent: `
   # سياسة الخصوصية
 
