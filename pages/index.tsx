@@ -4,6 +4,7 @@ import { dehydrate, QueryClient } from "react-query";
 
 import LayoutArea from "@modules/_core/components/layout/LayoutArea";
 import { fetchPokemon } from "@utils/api/rest/raw/module1";
+import BannerArea from "@modules/home/Banner/BannerArea";
 
 const Home: NextPage = () => {
   return (
@@ -14,7 +15,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <LayoutArea>
-        <div>Body Area</div>
+       <BannerArea/>
       </LayoutArea>
     </>
   );
